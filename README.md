@@ -14,7 +14,7 @@
 
 2. To run the tests using TestNG in intelliJ:
 
-    - Right click on `TestRunner` class and select `Run 'TestRunner`
+    - Right click on `TestRunner` class and select `Run 'TestRunner'`
 
 ## 🧬 Need Assistance?
 
