@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.github.mfaisalkhatri</groupId>
+  <artifactId>cucumber-java</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>cucumber-java</name>
+  <url>http://maven.apache.org</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium-java.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber-java.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>${cucumber-testng.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.version}</version>
+                <configuration>
+                    <release>${java.release.version}</release>
+                    <encoding>${maven.source.encoding}</encoding>
+                    <forceJavacCompilerUse>true</forceJavacCompilerUse>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${surefire-version}</version>
+                <configuration>
+                    <useSystemClassLoader>false</useSystemClassLoader>
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                    </properties>
+                    <argLine>${argLine}</argLine>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <properties>
+        <selenium-java.version>4.38.0</selenium-java.version>
+        <testng.version>7.11.0</testng.version>
+        <cucumber-java.version>7.31.0</cucumber-java.version>
+        <cucumber-testng.version>7.31.0</cucumber-testng.version>
+        <maven.compiler.version>3.14.0</maven.compiler.version>
+        <surefire-version>3.5.3</surefire-version>
+        <java.release.version>17</java.release.version>
+        <maven.source.encoding>UTF-8</maven.source.encoding>
+        <argLine>-Dfile.encoding=UTF-8 -Xdebug -Xnoagent</argLine>
+    </properties>
+</project>
