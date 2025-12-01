@@ -39,14 +39,6 @@ public class ProductSearchSteps {
                 .timeouts ()
                 .implicitlyWait (Duration.ofSeconds (20));
         }
-
-
-        driver.manage ()
-            .window ()
-            .maximize ();
-        driver.manage ()
-            .timeouts ()
-            .implicitlyWait (Duration.ofSeconds (30));
     }
 
     @Given ("I am on the LambdaTest E-Commerce Playground home page")
