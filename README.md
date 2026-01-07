@@ -3,7 +3,7 @@
 ## :question: What is this Repository about?
 
 - This repo contains example code of Cucumber Java framework using TestNG and Selenium WebDriver 
-- Maven is used as build tool in thies project.
+- Maven is used as build tool in this project.
 - TestNG is used as testing framework for organizing and running tests and performing Assertions.
 
 ## Running the Tests
@@ -24,16 +24,8 @@
 
 ## :writing_hand: Blog Links
 
+- [Cucumber Java Testing: A Step-by-Step Tutorial](https://medium.com/@iamfaisalkhatri/cucumber-java-testing-a-step-by-step-tutorial-3c463aac923e)
 - [Selenium 4 WebDriver Hierarchy: A Detailed Explanation](https://medium.com/@iamfaisalkhatri/selenium-4-webdriver-hierarchy-a-detailed-explanation-lambdatest-18771c5fd3e9)
-- [Different Types of Locators in Selenium WebDriver](https://www.lambdatest.com/blog/locators-in-selenium-webdriver-with-examples/)
-- [Understanding CSS Selectors in Selenium](https://medium.com/@iamfaisalkhatri/understanding-css-selectors-in-selenium-pcloudy-blog-3e4b09672264)
-- [How To Automate Login Page Using Selenium WebDriver](https://www.lambdatest.com/blog/automate-login-page-using-selenium-webdriver/)
-- [End to End testing using Selenium WebDriver and Java](https://medium.com/@iamfaisalkhatri/end-to-end-testing-using-selenium-webdriver-and-java-4ff8667716ca)
-- [Cross browser testing in Selenium WebDriver](https://medium.com/@iamfaisalkhatri/cross-browser-testing-in-selenium-webdriver-pcloudy-blog-46e9d70fa13a)
-- [Writing Selenium Web Automation tests in Fluent way!](https://medium.com/@iamfaisalkhatri/writing-selenium-web-automation-tests-in-fluent-way-864db95ee67a)
-- [How To Automate Shadow DOM In Selenium WebDriver?](https://medium.com/@iamfaisalkhatri/how-to-automate-shadow-dom-in-selenium-webdriver-lambdatest-blog-3884698b995)
-- [How to setup GitHub Actions for Java with Maven project?](https://mfaisalkhatri.github.io/2022/04/26/githubactions-for-java-maven-project/)
-- [How to Automate ServiceNOW with Selenium](https://medium.com/@iamfaisalkhatri/how-to-automate-servicenow-with-selenium-511e41172161)
 
 ## :movie_camera: Tutorial Videos
 
